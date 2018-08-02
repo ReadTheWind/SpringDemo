@@ -6,6 +6,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
+ * 1.实现序列化接口
+ * 2.不能使用lombok的@Data注解，否则页面报反序列化错误
  * @author liuhuan
  * user实体类
  */
