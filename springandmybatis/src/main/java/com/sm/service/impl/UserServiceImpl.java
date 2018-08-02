@@ -23,6 +23,6 @@ public class UserServiceImpl implements UserServcie {
 	UserDao userDao;
 
 	public List<User> getAll() {
-		return null;
+		return userDao.getAll();
 	}
 }
